@@ -1,0 +1,17 @@
+a=float(input("Enter The First Value:"))
+b= float(input("Enter The Second Value:"))
+c=eval(input("Enter your choice:"))
+if c==1:
+   c=a+b
+   print(c)
+elif c==2:
+   c=a-b
+   print(c)
+elif c==3:
+    c=a*b
+    print(c)
+elif c==4:
+    c=a/b
+    print(c)
+else:
+    print("Enter The correct choice")
