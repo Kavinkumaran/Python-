@@ -1,0 +1,22 @@
+print("Enter the option 1 for starting Num to Ending Num")
+print("Enter the option 2 for check Prime Num")
+a=int(input("Enter the option:"))
+if a==1:
+ b=int(input("Enter the starting value:")) 
+ c=int(input("Enter the endind value:"))
+ for j in range(b,c+1):
+  if b>1:
+    for j in range(2,c+1):
+     if (j%2)==0:
+      break
+     else:
+       print(j) 
+elif a==2:
+  num=int(input("Enter the check the prime Num:"))
+  for i in range(2,num): 
+    if (num % i) == 0: 
+      print(num, "is not a prime number") 
+      break
+  else: 
+      print(num, "is a prime number") 
+  
