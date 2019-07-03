@@ -5,8 +5,8 @@ if a==1:
  b=int(input("Enter the starting value:")) 
  c=int(input("Enter the endind value:"))
  for j in range(b,c+1):
-  if b>1:
-    for j in range(2,c+1):
+  if j>1:
+    for n in range(2,c+1):
      if (j%2)==0:
       break
      else:
@@ -19,4 +19,6 @@ elif a==2:
       break
   else: 
       print(num, "is a prime number") 
+  
+
   
