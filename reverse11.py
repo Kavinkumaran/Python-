@@ -1,8 +1,8 @@
-Number = int(input("Please Enter any Number: "))    
+n = int(input("Please Enter any Number: "))    
 Reverse = 0    
-while(Number > 0):    
-    Reminder = Number %10    
+while(n > 0):    
+    Reminder = n %10    
     Reverse = (Reverse *10) + Reminder    
-    Number = Number //10    
+    n = n //10    
      
-print("\n Reverse of entered number is = %d" %Reverse)  
+print("\n Reverse of entered number is = %d" %Reverse
