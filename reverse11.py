@@ -1,4 +1,4 @@
-n = int(input("Please Enter any Number: "))    
+n = int(input(""))    
 Reverse = 0    
 while(n > 0):    
     Reminder = n %10    
